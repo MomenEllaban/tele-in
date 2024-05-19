@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Group_2" data-name="Group 2" transform="translate(-1633 -596)">
+    <g id="Video_Call" data-name="Video Call" transform="translate(1633 596)">
+      <rect id="Rectangle_25" data-name="Rectangle 25" width="40" height="40" rx="20" fill="#d03e13"/>
+    </g>
+    <path id="icon" d="M3.727,20.124V16.572A9.055,9.055,0,0,1,0,9.317C0,4.179,4.486,0,10,0S20,4.179,20,9.317s-4.486,9.317-10,9.317a10.7,10.7,0,0,1-2.868-.39l-3.4,1.879Zm4.72-10.31h0l2.546,2.733,5.466-5.839L11.552,9.441,8.944,6.708,3.479,12.547,8.447,9.814Z" transform="translate(1643 606)" fill="#fff"/>
+    <g id="Group_1" data-name="Group 1" transform="translate(-0.341 -2)">
+      <path id="Line_1" data-name="Line 1" d="M5.894.425H0V-1.1H5.894Z" transform="translate(1660.394 607.89)" fill="#fff"/>
+      <path id="Line_2" data-name="Line 2" d="M.425,5.894H-1.1V0H.425Z" transform="translate(1663.678 604.606)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

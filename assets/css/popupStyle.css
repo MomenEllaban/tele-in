@@ -1,0 +1,200 @@
+.Date_info, .time_info {
+  margin-top: 0rem;
+  padding-top: 7px;
+  margin-bottom: 0rem;
+  padding-left: 0;
+}
+.session_details {
+  margin-bottom: 0 !important;
+  padding-left: 0;
+}
+
+.call_details .price { 
+  padding: 2px 0;
+}
+.box-text .Date_info input,
+.box-text .time_info input,
+.box-text select {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  border: 1px solid #cfd9de;
+  border-radius: 6px;
+  padding-left: 12px;
+  cursor: pointer;
+}
+
+.Date_info p,
+.time_info p {
+  margin-bottom: -31px !important;
+  position: relative;
+  left: 10px;
+  z-index: 99;
+}
+
+.session_details div textarea {
+  padding-bottom: 1rem;
+  border: 1px solid #cfd9de;
+  border-radius: 6px;
+}
+.click_dropdown {
+  cursor: pointer;
+  position: relative;
+}
+.input_dropdown {
+  padding-left: 12px;
+  background: rgb(255, 255, 255);
+  border-radius: 6px;
+  height: 100px;
+  position: absolute;
+  margin-right: 100px;
+  border: 1px solid #cfd9de;
+  transition: 0.5s;
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 15px 20px;
+  opacity: 0;
+  top: 58px;
+  z-index: 999;
+  justify-content: space-around;
+}
+.input_dropdown span {
+  padding: 0 5px;
+  transition: 0.5s;
+}
+.input_dropdown span:hover {
+  background-color: rgba(128, 128, 128, 0.205);
+}
+
+.input_dropdown.monthes {
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: start;
+}
+
+.input_dropdown.hours {
+  z-index: 999 !important;
+  justify-content: space-between !important;
+  gap: 16px !important;
+}
+.input_dropdown.hours {
+  z-index: 999 !important;
+  justify-content: space-between !important;
+  gap: 16px !important;
+}
+
+.input_dropdown.minutes {
+  gap: 14px !important;
+}
+.input_dropdown.days {
+  gap: 17px !important;
+}
+.input_dropdown.time_pireod {
+  flex-direction: column-reverse !important;
+}
+
+.click_dropdown .downArrow {
+  position: absolute;
+  width: fit-content;
+  top: 0;
+  right: 10px;
+}
+.click_dropdown .downArrow span {
+  display: inline-block;
+  width: 17px;
+  height: 2px;
+  background: #53647194;
+}
+.click_dropdown .downArrow span:first-child {
+  transform: rotate(35deg);
+}
+.click_dropdown .downArrow span {
+  transform: rotate(-38deg) translate(-7px, -6px)
+}
+
+#change-phone-modal .modal-content .card,
+#change-video-modal .modal-content .card {
+  min-height: fit-content !important;
+  padding: 0rem 1rem !important;
+}
+
+/* ============================================================ */
+/* .border-gradient-pink-purple {
+	background-image: linear-gradient(to right, #d53a9d, #743ad5);
+  padding: 5px;
+  border-radius: 5px;
+} */
+.border-gradient-pink-purple div {
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.counter_parent {
+  width:100%;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  margin: 8px 0px 13px 0px;
+}
+.session-counter {
+color: #4a4a4a; 
+border-radius: 50%; 
+width: 75px; 
+height: 25px; 
+display: flex;
+align-items: center; 
+justify-content: center; 
+font-size: 16px;
+font-weight:bold;
+}
+.session-message {
+color: #4a4a4a;
+font-size: 14px; 
+/* font-weight: bold; */
+}
+
+
+body.is-dark .session-message ,body.is-dark .session-counter{
+  color: #fff !important;
+  }
+
+
+  .custom_footer{
+    gap: 10px;
+
+  }
+  #feed-post-11{
+    background: #dbebc7 !important;
+    border: #dbebc7 !important;
+    margin-bottom: 0 !important;
+  }
+  #feed-post-12{
+    background: #f0e1dd !important;
+    border: #f0e1dd !important;
+    margin-bottom: 0 !important;
+
+  }
+  #feed-post-13{
+    background: #d03e13 !important;
+    border: #d03e13 !important;
+    margin-bottom: 0 !important;
+
+  }
+  #feed-post-14{
+    background: #76c00d !important;
+    border: #76c00d !important;
+    margin-bottom: 0 !important;
+
+  }
+
+  .last_two{
+    color: #fff !important;
+  }
+
+  body.is-dark  #feed-post-11 , body.is-dark  #feed-post-12 , body.is-dark  #feed-post-13 , body.is-dark  #feed-post-14 , body.is-dark  #feed-post-15{
+    background: transparent !important;
+    border: none !important;
+  }
