@@ -4534,3 +4534,10 @@ body.fancybox-active #morphing-content,body.fancybox-active #morphing-content2 ,
   right: 0 !important;
   /* left: auto !important; */
 }
+
+
+
+.direction-rtl > div.chat-wrapper.is-standalone > div > div.chat-nav > div.nav-end > div.dropdown.is-spaced.is-neutral.is-right.dropdown-trigger.cancleMRleft.is-active > div.dropdown-menu{
+  right: auto !important;
+  left: 0 !important;
+}
