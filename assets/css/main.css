@@ -327,8 +327,7 @@ li {
     /* padding-left: 0rem !important; */
   }
 }
-
-@media only screen and (max-width: 1030px) {
+ @media only screen and (max-width: 1030px) {
   .rest_cols {
     flex-direction: column;
   }
@@ -337,20 +336,11 @@ li {
     width: 100% !important;
     display: flex;
     justify-content: space-around;
-    /* padding: 0 2rem; */
     gap: 2rem;
   }
 
-  .profile_card,
-  .schedule {
-    /* width: 40%; */
-  }
 
-  .columns:not(.is-desktop) {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center !important; */
-  }
+
 
   .columns.columns_profile {
     padding: 0rem !important;
@@ -381,7 +371,7 @@ li {
   .column.is-6-tablet {
     width: 100% !important;
   }
-}
+} 
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .dashboard-aside {
@@ -2297,7 +2287,7 @@ tbody tr td.text_color_table_green {
 
 .birthday-content button span,
 .birthday-content button svg {
-  z-index: 100 !important;
+  z-index: 1 !important;
 }
 
 .birthday-content a span,
@@ -2503,7 +2493,10 @@ tbody tr td.text_color_table_green {
 .settings-sidebar.categories_setting ul {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  flex-wrap: nowrap;
+  overflow-y: auto;
+
   justify-content: space-between !important;
   /* gap: .8rem; */
 }
@@ -3570,7 +3563,7 @@ body.is-dark .settings-sidebar-m .settings-sidebar-inner .user-menu-m .user-menu
   }
 }
 
-@media screen and (max-width: 1030px) {
+/* @media screen and (max-width: 1030px) {
   .columns.community-content {
     display: flex;
     flex-direction: column !important;
@@ -3579,7 +3572,7 @@ body.is-dark .settings-sidebar-m .settings-sidebar-inner .user-menu-m .user-menu
   .left_column_feed {
     display: none !important;
   }
-}
+} */
 
 .direction-rtl #open-mobile-search {
   margin-left: 0 !important;
@@ -3994,7 +3987,7 @@ body.is-dark .settings-sidebar-m .settings-sidebar-inner .user-menu-m .user-menu
 }
 
 textarea {
-  padding: 10px !important;
+  /* padding: 10px !important; */
 }
 
 .card.is-new-content .tabs li {
@@ -4389,10 +4382,17 @@ display: flex;
   backface-visibility: hidden !important;
   background: rgba(0, 0, 0, 0) !important;
   line-height: 2;
+
   margin: 0;
   padding: 6em 10vw !important;
   position: relative !important;
   z-index: 3 !important;
+}
+
+body.fancybox-active #morphing-content,body.fancybox-active #morphing-content2 ,body.fancybox-active #morphing-content3 ,body.fancybox-active #morphing-content4 ,body.fancybox-active #morphing-content5 ,body.fancybox-active #morphing-content6 
+{
+  display: inline-flex !important;
+
 }
 
 #morphing-content * ,#morphing-content2 * ,#morphing-content3 * ,#morphing-content4 * ,#morphing-content5 *{
@@ -4402,12 +4402,11 @@ display: flex;
 }
 
 .fancybox-content{
-  display: inline-flex !important;
+  /* display: inline-flex !important; */
     flex-direction: column !important;
     gap: 0.1rem !important;
 
 }
-
 
 .fancybox-content a{
   background: transparent !important;
@@ -4432,4 +4431,106 @@ display: flex;
     flex-wrap: wrap !important;
 
   }
+}
+
+
+
+
+
+
+
+
+.models .card.is-birthday-card .card-body, .shop-wrapper .cart-container .cart-content .cart-summary .is-birthday-card.summary-card .card-body {
+
+  min-height: 360px !important;
+}
+
+.newsty.question-content{
+
+  display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    max-width: 100% !important;
+    border-radius: .85rem;
+
+} 
+
+.newsty.question-content .question-block{
+  border-bottom: 1px solid #e3e3e3 !important;
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.direction-rtl #chat-sidebar{
+  right: 0 !important;
+  left: auto !important;
+  /* z-index: 9999999999999999999 !important; */
+  border-left: 1px solid #e0e0e0;
+  border-right: 0px !important;
+}
+
+.direction-rtl  #chat-panel{
+  left: 0 !important;
+  right: auto !important;
+
+  /* z-index: 9999999999999999999 !important; */
+}
+
+.direction-rtl #chat-body{
+  right: 60px !important;
+  left: auto !important;
+
+}
+
+.direction-rtl .chat-nav{
+  right: 60px !important;
+  left: auto !important;
+}
+
+.direction-rtl .ml-auto {
+  margin-right: auto !important;
+  margin-left: unset !important;
+
+}
+
+.direction-rtl .chat-wrapper .chat-inner .chat-body.is-opened{
+  width: calc(100% - 460px);
+
+}
+
+.direction-rtl .chat-wrapper .chat-inner .chat-panel {
+  transform: translateX(-400px);
+
+}
+
+
+.direction-rtl  .chat-wrapper .chat-inner .chat-action{
+  right: 60px !important;
+  left: auto !important;
+
+}
+
+.direction-rtl  .chat-wrapper .chat-inner .chat-action .chat-action-inner .control .compose-dropdown {
+
+  right: 0 !important;
+  left: auto !important;
+
+}
+
+.direction-rtl  .chat-wrapper .chat-inner .chat-panel .panel-inner .panel-body.is-user-details .panel-body-inner .user-about .about-block .about-text {
+  margin-right: 12px !important;
+  margin-left: 0px !important;
+}
+.direction-rtl .dropdown-menu {
+  right: 0 !important;
+  /* left: auto !important; */
 }
